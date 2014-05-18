@@ -22,6 +22,6 @@ You need to modify the hibernate.cfg.xml file according to the database.
 
 This application tested  using MSSQL server Database.
 
-You need to add JDBC drive to you class path or Update pom.xml file according to the database.
+You need to add JDBC drive to you class path or Update pom.xml dependency file according to the database.
 
 Hibernate automatically generate table in database.
