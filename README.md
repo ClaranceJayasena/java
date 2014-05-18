@@ -20,7 +20,7 @@ For database you can use any kind database that support hibernates.
 
 You need to modify the hibernate.cfg.xml file according to the database. 
 
-This application tested by using MSSQL server Database.
+This application tested  using MSSQL server Database.
 
 You need to add JDBC drive to you class path or Update pom.xml file according to the database.
 
