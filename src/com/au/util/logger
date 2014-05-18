@@ -1,0 +1,10 @@
+package com.au.util;
+
+public class logger {
+	
+	public static void log(String type, Object msg, String user){
+		System.out.println(user + "\t" + type + " : \t" +  msg);
+		
+		//Use log4j or your own logger methods
+	}
+}
