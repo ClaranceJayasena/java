@@ -4,7 +4,7 @@
 
     <groupId>com.au</groupId>
     <artifactId>AU</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>AU</version>
     <packaging>war</packaging>
 
     <name>AU</name>
