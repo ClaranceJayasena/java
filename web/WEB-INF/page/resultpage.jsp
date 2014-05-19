@@ -47,8 +47,6 @@
 	    <select name="select" id="sujectList" onchange="call()">
 		    <c:forEach var="subject" items="${subjectlist}">
 	            <option value="${subject.subjectId}">${subject.subjectName}</option>
-	            <option value="2">Spelling</option>
-	            <option value="3">Reading</option>
 	        </c:forEach>
         </select>	
         
