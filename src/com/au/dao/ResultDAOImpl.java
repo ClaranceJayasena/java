@@ -51,7 +51,6 @@ public class ResultDAOImpl implements ResultDAO {
 		
 		Session session = getSessionFactory().getCurrentSession();
 		try{
-			boolean x = false;
 			session.beginTransaction();	
 			
 			resultObject.setSEcho(1);
@@ -97,7 +96,6 @@ public class ResultDAOImpl implements ResultDAO {
 		List<SubjectObject> resultlist = new ArrayList<>();		
 		Session session = getSessionFactory().getCurrentSession();
 		try{
-			boolean x = false;
 			session.beginTransaction();			
 			Query query =  session.createQuery("from Subject");			
 			@SuppressWarnings("unchecked")
